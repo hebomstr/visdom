@@ -24,6 +24,13 @@ C:\visdom-main> npm start
 
 # User Guide
 
+## New chart
+
+The chart shows the student’s estimated workload per week. 
+
+https://user-images.githubusercontent.com/74241142/163780563-4467fbbf-4f30-4691-ae02-9fad7c845159.mp4
+
+
 ## Progress bars
 The main page shows all the courses and their tasks. Courses can be found in courses.json. The length of the tasks in the progress bar are calculated by the estimated hours per task. This makes it easy for the user to see how large the tasks in the course are in relation to each other. The calculation can also be made with the points of the tasks. For example, Exercise 3 in Example Course requires a lot more work than Exercise 1 and 2. Hover tooltip feature allows the user to check name, status and deadline of tasks very quickly. 
 
