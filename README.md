@@ -26,7 +26,7 @@ C:\visdom-main> npm start
 
 ## New chart
 
-The chart shows the student’s estimated workload per week. 
+The chart shows the student’s estimated workload per week. Data for chart is calculated by: ((estimated working hours for a particular task divided by how many days the task is ongoing) times (how many days in a week the task is ongoing)).
 
 https://user-images.githubusercontent.com/74241142/163780563-4467fbbf-4f30-4691-ae02-9fad7c845159.mp4
 
