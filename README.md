@@ -1,6 +1,6 @@
 # Visdom | Proof of Concept & User Guide
 
-This is the proof of concept application of our project work. It's purpose is only to demonstrate the functionality of our visualizations and designs in a real web page. Quality and scalability of the code was not a requirement.
+This is the proof of concept application of our project work. It's purpose is only to demonstrate the functionality of our visualizations and designs in a real web page. Quality and scalability of the code was not a requirement. All libraries that have been used are under MIT license.
 
 # Heroku
 
