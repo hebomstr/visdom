@@ -1,0 +1,77 @@
+.coursepage-container {
+	display: grid;
+    background-color: #ffffff;
+	grid-template-rows: auto auto;
+  	grid-template-columns: auto 600px;
+	grid-template-areas: 
+	'course widget'
+	'course .';
+}
+
+.coursepage-course {
+	background-color: #ffffff;
+	width: 100%;
+	grid-area: course;
+}
+
+.course-text-container {
+	margin: 50px;
+	text-align: justify;
+}
+
+.coursepage-widget-container {
+	background-color: #f3f3f3;
+	grid-area: widget;
+	height: auto;
+	display: flex;
+	box-shadow: -4px 4px 8px 0 #d1d1d1;
+}
+
+.coursepage-calendar-container {
+	width: 100%;
+	background-color: #f3f3f3;
+	justify-content: center;
+	align-content: center;
+	text-align: center;
+	margin: 40px;
+}
+
+.coursepage-returnbox-container {
+	width: 100%;
+	background-color: #f3f3f3;
+	margin: 40px;
+}
+
+.togglebutton-container {
+	width: auto;
+	display: flex;
+	margin-top: 50px;
+	margin-left: 50px;
+}
+
+.coursepage-title-container {
+	margin-top: 50px;
+	margin-left: 50px;
+}
+
+
+@media (max-width: 799px) {
+	.coursepage-container {
+		display: grid;
+		background-color: #ffffff;
+		grid-template-rows: auto auto auto;
+		grid-template-columns: auto;
+		grid-template-areas: 
+		'course'
+		'course'
+		'widget';
+	}
+
+	.homepage-calendar-container {
+		margin: 20px;
+	}
+
+	.homepage-courses-container {
+		margin: 5px;
+	}
+}

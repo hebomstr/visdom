@@ -1,0 +1,12 @@
+.progressbar-container {
+	width: 100%;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	text-align: left;
+}
+
+.progressbar {
+	display: "flex";
+	height: 45px;
+	background-color: #a0a863;
+}

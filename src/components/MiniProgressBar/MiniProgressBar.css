@@ -1,0 +1,10 @@
+.mini-progressbar-container {
+	width: 100%;
+	text-align: left;
+}
+
+.mini-progressbar {
+	display: flex;
+	height: 30px;
+	background-color: #a0a863;
+}

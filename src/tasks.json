@@ -1,0 +1,109 @@
+[{
+    "date": "5.1.22",
+    "tasks": [
+    {
+        "courseId": null,
+        "title": "Work",
+        "type": "notification",
+        "status": "null",
+        "start": "5.1.22",
+        "dueTime": "8:00-16:00",
+        "estimatedHours": 8
+    }]
+},{
+    "date": "9.1.22",
+    "tasks": [
+    {
+        "courseId": "EC",
+        "title": "EC E1",
+        "type": "exercise",
+        "status": "completed",
+        "dueTime": "23:59",
+        "start": "5.1.22",
+        "estimatedHours": 4
+    }]
+},{
+    "date": "12.1.22",
+    "tasks": [
+    {
+        "courseId": null,
+        "title": "Work",
+        "type": "notification",
+        "status": "null",
+        "start": "12.1.22",
+        "dueTime": "8:00-16:00",
+        "estimatedHours": 8
+    }]
+},{
+    "date": "16.1.22",
+    "tasks": [
+    {
+        "courseId": "EC",
+        "title": "EC E2",
+        "type": "exercise",
+        "status": "failed",
+        "dueTime": "23.59",
+        "start": "12.1.22",
+        "estimatedHours": 7
+    }]
+},{
+    "date": "20.1.22",
+    "tasks": [
+    {
+        "courseId": "OC",
+        "title": "OC E1",
+        "type": "exercise",
+        "status": "null",
+        "dueTime": "23:59",
+        "start": "17.1.22",
+        "estimatedHours": 10
+    }]
+},{
+    "date": "23.1.22",
+    "tasks": [
+    {
+        "courseId": "EC",
+        "title": "EC E3",
+        "type": "exercise",
+        "status": "null",
+        "dueTime": "23.59",
+        "start": "19.1.22",
+        "estimatedHours": 20
+    }]
+},{
+    "date": "27.1.22",
+    "tasks": [
+    {
+        "courseId": "OC",
+        "title": "OC E2",
+        "type": "exercise",
+        "status": "null",
+        "dueTime": "23:59",
+        "start": "24.1.22",
+        "estimatedHours": 10
+    }]
+},{
+    "date": "30.1.22",
+    "tasks": [
+    {
+        "courseId": "EC",
+        "title": "EC Exam 1",
+        "type": "exam",
+        "status": "null",
+        "dueTime": "9:00-12:00",
+        "start": "30.1.22",
+        "estimatedHours": 3
+    }]
+},{
+    "date": "28.2.22",
+    "tasks": [
+    {
+        "courseId": "OC",
+        "title": "OC Project 1",
+        "type": "project",
+        "status": "null",
+        "dueTime": "23:59",
+        "start": "10.1.22",
+        "estimatedHours": 70
+    }]
+}]

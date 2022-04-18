@@ -1,0 +1,293 @@
+[{
+	"id": "EC",
+	"title": "Example Course (EC)",
+	"courseCode": "899347Y",
+	"start": "3.1.2022 00:00",
+	"end": "30.1.2022 12:00",
+	"courseInformation": "Kurssin tietoja tässä näin",
+	"courseCompleted": false,
+	"studentId": "123",
+	"studentsCurrentPoints": 0,
+	"maxExercisePoints": 54,
+	"estimatedHours": 40,
+	"lectures": [{
+			"lectureId": "ECL1",
+			"lectureTitle": "Lecture",
+			"lectureNumber": "1",
+			"lectureDescription": "Luennon 1 kuvaustekstiä",
+			"lectureVideoLink": "www.youtube.com/video1",
+			"status": "completed",
+			"estimatedHours": 2,
+			"start": "3.1.22",
+			"deadline": "9.1.22 23:59"
+		},
+		{
+			"lectureId": "ECL2",
+			"lectureTitle": "Lecture",
+			"lectureNumber": "2",
+			"lectureDescription": "Luennon 2 kuvaustekstiä",
+			"lectureVideoLink": "www.youtube.com/video2",
+			"status": "completed",
+			"estimatedHours": 2,
+			"start": "10.1.22",
+			"deadline": "16.1.22 23:59"
+		},
+		{
+			"lectureId": "ECL3",
+			"lectureTitle": "Lecture",
+			"lectureNumber": "3",
+			"lectureDescription": "Luennon 3 kuvaustekstiä",
+			"lectureVideoLink": "www.youtube.com/video3",
+			"status": "null",
+			"estimatedHours": 2,
+			"start": "17.1.22",
+			"deadline": "23.1.22 23:59"
+		}
+	],
+	"exercises": [{
+			"exerciseId": "ECE1",
+			"exerciseTitle": "Exercise",
+			"exerciseNumber": "1",
+			"exerciseAssignment": "Tehtävän 1 kuvaustekstiä",
+			"status": "completed",
+			"studentPoints": 4,
+			"exercisePoints": 4,
+			"estimatedHours": 4,
+			"start": "5.1.22",
+			"deadline": "9.1.22 23:59",
+			"gitSubmissions": [
+				{
+					"submissionNumber": 1,
+					"commit":{
+						"status": "completed",
+						"commitTime": "00.00 at 00.00",
+						"message": "Code is committed successfully.",
+						"link": "https://link.to.commit"
+					},
+					"build": {
+						"status": "completed",
+						"buildTime": "00.00 at 00.00",
+						"message": "Build was successful.",
+						"link": "https://link.to.build"
+					},
+					"tests": {
+						"status": "completed",
+						"testTime": "00.00 at 00.00",
+						"failedTests": [],
+						"message": "All tests passed.",
+						"link": "https://link.to.tests"
+					},
+					"results": {
+						"status": "completed",
+						"message": "Exercise completed!"
+					}
+				}
+			]
+		},
+		{
+			"exerciseId": "ECE2",
+			"exerciseTitle": "Exercise",
+			"exerciseNumber": "2",
+			"exerciseAssignment": "Tehtävän 2 kuvaustekstiä",
+			"status": "failed",
+			"studentPoints": 0,
+			"exercisePoints": 7,
+			"estimatedHours": 7,
+			"start": "12.1.22",
+			"deadline": "16.1.22 23:59",
+			"gitSubmissions": [
+				{
+					"submissionNumber": 3,
+					"commit":{
+						"status": "completed",
+						"commitTime": "00.00 at 00.00",
+						"message": "Code is committed successfully.",
+						"link": "https://link.to.commit"
+					},
+					"build": {
+						"status": "completed",
+						"buildTime": "00.00 at 00.00",
+						"message": "Build was successful.",
+						"link": "https://link.to.build"
+					},
+					"tests": {
+						"status": "failed",
+						"testTime": "00.00 at 00.00",
+						"failedTests": ["Test4"],
+						"message": "Some of the tests did not pass. Take a look at frequently asked questions or ask your assistant for help in the chat below.",
+						"link": "https://link.to.tests"
+					},
+					"results": {
+						"status": "failed",
+						"message": "Exercise is not completed."
+					}
+				},
+				{
+					"submissionNumber": 2,
+					"commit":{
+						"status": "completed",
+						"commitTime": "00.00 at 00.00",
+						"message": "Code is committed successfully.",
+						"link": "https://link.to.commit"
+					},
+					"build": {
+						"status": "completed",
+						"buildTime": "00.00 at 00.00",
+						"message": "Build was successful.",
+						"link": "https://link.to.build"
+					},
+					"tests": {
+						"status": "failed",
+						"testTime": "00.00 at 00.00",
+						"failedTests": ["Test1"],
+						"message": "Some tests did not pass.",
+						"link": "https://link.to.tests"
+					},
+					"results": {
+						"status": "failed",
+						"message": "Exercise is not completed."
+					}
+				},
+				{
+					"submissionNumber": 1,
+					"commit":{
+						"status": "completed",
+						"commitTime": "00.00 at 00.00",
+						"message": "Code is committed successfully.",
+						"link": "https://link.to.commit"
+					},
+					"build": {
+						"status": "completed",
+						"buildTime": "00.00 at 00.00",
+						"message": "Build was successful.",
+						"link": "https://link.to.build"
+					},
+					"tests": {
+						"status": "failed",
+						"testTime": "00.00 at 00.00",
+						"failedTests": ["Test1", "Test2", "Test5"],
+						"message": "Some tests did not pass.",
+						"link": "https://link.to.tests"
+					},
+					"results": {
+						"status": "failed",
+						"message": "Exercise is not completed."
+					}
+				}
+			]
+		},
+		{
+			"exerciseId": "ECE3",
+			"exerciseTitle": "Exercise",
+			"exerciseNumber": "3",
+			"exerciseAssignment": "Tehtävän 3 kuvaustekstiä",
+			"status": "null",
+			"studentPoints": 0,
+			"exercisePoints": 20,
+			"estimatedHours": 20,
+			"start": "19.1.22",
+			"deadline": "23.1.22 23:59",
+			"gitSubmissions": []
+		}
+	],
+	"exams": [{
+			"examId": "ECEXAM1",
+			"examTitle": "Exam",
+			"examNumber": "1",
+			"examAssignment": "Tentin kuvaustekstiä",
+			"status": "null",
+			"examPoints": 10,
+			"estimatedHours": 3,
+			"start": "30.1.22",
+			"deadline": "30.1.22 12:00"
+		}
+	]
+},
+
+
+
+
+
+{
+	"id": "OC",
+	"title": "Other Course (OC)",
+	"courseCode": "125356Y",
+	"start": "3.1.2022 00:00",
+	"end": "28.2.2022 23:59",
+	"courseInformation": "Kurssin tietoja tässä näin",
+	"courseCompleted": false,
+	"studentId": "123",
+	"studentsCurrentPoints": 0,
+	"maxExercisePoints": 28,
+	"estimatedHours": 90,
+	"exercises": [{
+			"exerciseId": "OCE1",
+			"exerciseTitle": "Exercise",
+			"exerciseNumber": "1",
+			"exerciseAssignment": "Tehtävän 1 kuvaustekstiä",
+			"status": "null",
+			"studentPoints": 0,
+			"exercisePoints": 4,
+			"estimatedHours": 10,
+			"start": "17.1.22",
+			"deadline": "20.1.22 23:59",
+			"submissions": []
+		},{
+			"exerciseId": "OCE2",
+			"exerciseTitle": "Exercise",
+			"exerciseNumber": "2",
+			"exerciseAssignment": "Tehtävän 2 kuvaustekstiä",
+			"status": "null",
+			"studentPoints": 0,
+			"exercisePoints": 4,
+			"estimatedHours": 10,
+			"start": "24.1.22",
+			"deadline": "27.1.22 23:59",
+			"submissions": []
+		}
+	],
+	"projects": [{
+			"projectId": "OCP1",
+			"projectTitle": "Projektitehtävä",
+			"projectNumber": "1",
+			"projectAssignment": "Projektin kuvaustekstiä",
+			"status": "null",
+			"studentPoints": 0,
+			"projectPoints": 20,
+			"estimatedHours": 70,
+			"start": "10.1.22",
+			"deadline": "28.2.22 23:59"
+		}
+	]
+},
+
+
+
+
+
+{
+	"id": "TC",
+	"title": "Third Course (TC)",
+	"courseCode": "999999Y",
+	"start": "9.9.21 00:00",
+	"end": "12.12.21 23:59",
+	"courseInformation": "Kurssin tietoja tässä näin",
+	"courseCompleted": true,
+	"studentId": "123",
+	"studentsCurrentPoints": 20,
+	"maxExercisePoints": 20,
+	"estimatedHours": 30,
+	"projects": [{
+			"projectId": "TCP1",
+			"projectTitle": "Project work",
+			"projectNumber": "1",
+			"projectAssignment": "Projektin kuvaustekstiä",
+			"status": "completed",
+			"studentPoints": 20,
+			"projectPoints": 20,
+			"estimatedHours": 30,
+			"start": "9.9.21",
+			"deadline": "12.12.21 23:59"
+		}
+	]
+}]
