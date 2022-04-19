@@ -1,6 +1,6 @@
 # Visdom | Proof of Concept & User Guide
 
-This is the proof of concept application of our project work. It's purpose is only to demonstrate the functionality of our visualizations and designs in a real web page. Quality and scalability of the code was not a requirement. All libraries that have been used are under MIT license. The app is a school course application which shows visualizations we have designed for students.
+This is the proof of concept application of our project work. It's purpose is only to demonstrate the functionality of our visualizations and designs in a real web page. Quality and scalability of the code was not a requirement. All libraries that have been used are under MIT license. The app is a school course application which shows visualizations we have designed for students. More detailed user guide can be found at USERGUIDE.md -file.
 
 ![readMe1](https://user-images.githubusercontent.com/74241142/163981842-7fb10e79-7d98-4f23-8a48-36442badd235.png)
 
