@@ -5,5 +5,4 @@
 #### react-dom
 #### react-router-dom
 #### react-router-hash-link
-#### react-scripts
 #### react-tooltip
