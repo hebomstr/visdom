@@ -1,8 +1,10 @@
-All libraries are under MIT License
+# License
+##### 2022
+##### Oulun yliopisto
+##### Visdom Project
 
 
-
-### Libraries (MIT-License)
+### Libraries used (MIT-License)
 
 ##### react-chartjs-2 library
 ##### chart.js
